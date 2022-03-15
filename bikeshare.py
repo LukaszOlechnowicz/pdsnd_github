@@ -49,7 +49,7 @@ def get_filters():
                         print ('Filter to be used: {}'.format(day_input))
                         break
                     else:
-                        print('Wrong input')
+                        print('Incorect input')
                         continue
                     
                 elif filters_input == 'Both':
@@ -69,7 +69,7 @@ def get_filters():
                     print('No filter will be applied for {} data'.format(city_input))
                     break
             else: 
-                print('Wrong input.')          
+                print('Incorect input.')          
                 continue
         else: 
             end = True
@@ -193,8 +193,8 @@ def raw_data_examples(df):
     while True:
         examples_input = input('\nWould you like to see raw data? Enter yes or no.\n').lower()
         if examples_input in 'yes':
-            print(df.iloc[range(i,i+5)])
-            i+=5
+            print(df.iloc[range(i,i+6)])
+            i+=6
         else:
             break            
     
