@@ -49,7 +49,7 @@ def get_filters():
                         print ('Filter to be used: {}'.format(day_input))
                         break
                     else:
-                        print('Wrong input')
+                        print('Incorect input')
                         continue
                     
                 elif filters_input == 'Both':
@@ -69,7 +69,7 @@ def get_filters():
                     print('No filter will be applied for {} data'.format(city_input))
                     break
             else: 
-                print('Inccorect input.')          
+                print('Incorect input.')          
                 continue
         else: 
             end = True
