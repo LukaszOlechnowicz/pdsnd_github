@@ -69,7 +69,7 @@ def get_filters():
                     print('No filter will be applied for {} data'.format(city_input))
                     break
             else: 
-                print('Wrong input.')          
+                print('Inccorect input.')          
                 continue
         else: 
             end = True
